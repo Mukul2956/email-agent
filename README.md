@@ -371,4 +371,3 @@ cat backend/.env
 *Happy emailing! 📧✨*
 
 </div>
-
