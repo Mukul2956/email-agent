@@ -1,0 +1,139 @@
+[
+  {
+    "id": "535e38e8-7de4-4cf4-8b5c-008cdbf9d8f9",
+    "emailId": "1",
+    "query": "summarize this email for me",
+    "response": "Here's a summary of the email:\n\nSender: Sarah Chen (sarah.chen@company.com)\nTopic: Q4 Marketing Campaign Review\n\nKey Points:\n- Sarah is reaching out to her team about the Q4 marketing campaign\n- She wants to schedule a meeting this week to review performance metrics\n- Preliminary campaign data has been attached to the email\n- She is requesting availability for a meeting on Tuesday or Wednesday afternoon\n\nAction Items:\n1. Schedule a team meeting to discuss Q4 marketing campaign\n2. Review the attached preliminary performance data\n3. Confirm meeting time on Tuesday or Wednesday afternoon\n\nThe email is a work-related communication aimed at coordinating a review of the recent marketing campaign's performance and planning a team discussion.",
+    "emailContext": {
+      "id": "1",
+      "sender": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@company.com",
+        "avatar": "SC"
+      },
+      "subject": "Q4 Marketing Campaign Review",
+      "body": "Hi team,\n\nI wanted to follow up on our Q4 marketing campaign. Can we schedule a meeting this week to review the performance metrics? I've attached the preliminary data.\n\nPlease let me know your availability for Tuesday or Wednesday afternoon.\n\nBest regards,\nSarah",
+      "timestamp": "2024-11-25T10:00:00Z",
+      "category": "Work",
+      "categoryColor": "bg-blue-500",
+      "actionItems": [
+        "Schedule meeting for Tuesday or Wednesday afternoon",
+        "Review Q4 marketing performance metrics",
+        "Check attached preliminary data"
+      ],
+      "read": false,
+      "summary": ""
+    },
+    "prompts": {
+      "categorization": "Analyze the email content and sender information to categorize it into one of the following categories: Work, Personal, Shopping, Social, Finance, Design, Education, Newsletter, Spam. Return only the category name.",
+      "actionItems": "Extract actionable items from the email that require a response or action from the recipient. For each action item: 1. Be specific and concise 2. Include deadlines if mentioned 3. Focus on what needs to be done 4. Ignore marketing or informational content. Return a bulleted list of action items, or an empty list if none exist.",
+      "autoReply": "Generate a professional and contextually appropriate email reply based on the original email content. Guidelines: 1. Match the tone of the original email (formal/casual) 2. Address all questions or requests mentioned 3. Be concise but complete 4. Include appropriate greeting and closing 5. Leave placeholders [DETAILS] where specific information is needed. Generate a draft reply that can be edited before sending."
+    },
+    "conversationHistory": [],
+    "timestamp": "2025-11-25T10:09:20.535Z"
+  },
+  {
+    "id": "1e868f10-6560-436f-9a7d-9e929c8f6207",
+    "emailId": "1",
+    "query": "summarize this email for me",
+    "response": "Here's a summary of the email:\n\nSender: Sarah Chen (sarah.chen@company.com)\nTopic: Q4 Marketing Campaign Review\n\nKey Points:\n- Sarah is reaching out to her team about the Q4 marketing campaign\n- She wants to schedule a team meeting this week\n- The purpose is to review performance metrics for the marketing campaign\n- She has attached preliminary data to the email\n- She is requesting availability for a meeting on Tuesday or Wednesday afternoon\n\nAction Items:\n1. Schedule a team meeting to review Q4 marketing campaign metrics\n2. Check the attached preliminary data\n3. Confirm availability for Tuesday or Wednesday afternoon meeting\n\nThe email is a straightforward work-related communication aimed at coordinating a review of marketing campaign performance and setting up a team meeting.",
+    "emailContext": {
+      "id": "1",
+      "sender": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@company.com",
+        "avatar": "SC"
+      },
+      "subject": "Q4 Marketing Campaign Review",
+      "body": "Hi team,\n\nI wanted to follow up on our Q4 marketing campaign. Can we schedule a meeting this week to review the performance metrics? I've attached the preliminary data.\n\nPlease let me know your availability for Tuesday or Wednesday afternoon.\n\nBest regards,\nSarah",
+      "timestamp": "2024-11-25T10:00:00Z",
+      "category": "Work",
+      "categoryColor": "bg-blue-500",
+      "actionItems": [
+        "Schedule meeting for Tuesday or Wednesday afternoon",
+        "Review Q4 marketing performance metrics",
+        "Check attached preliminary data"
+      ],
+      "read": false,
+      "summary": ""
+    },
+    "prompts": {
+      "categorization": "Analyze the email content and sender information to categorize it into one of the following categories: Work, Personal, Shopping, Social, Finance, Design, Education, Newsletter, Spam. Return only the category name.",
+      "actionItems": "Extract actionable items from the email that require a response or action from the recipient. For each action item: 1. Be specific and concise 2. Include deadlines if mentioned 3. Focus on what needs to be done 4. Ignore marketing or informational content. Return a bulleted list of action items, or an empty list if none exist.",
+      "autoReply": "Generate a professional and contextually appropriate email reply based on the original email content. Guidelines: 1. Match the tone of the original email (formal/casual) 2. Address all questions or requests mentioned 3. Be concise but complete 4. Include appropriate greeting and closing 5. Leave placeholders [DETAILS] where specific information is needed. Generate a draft reply that can be edited before sending."
+    },
+    "conversationHistory": [],
+    "timestamp": "2025-11-25T10:54:24.911Z"
+  },
+  {
+    "id": "dc0de2e9-b9ad-4ec5-9401-644041d8e7b1",
+    "emailId": "1",
+    "query": "what time is the meeting scheduled according to this mail?",
+    "response": "According to the email, no specific meeting time is actually scheduled. Sarah Chen is proposing to have a meeting on either Tuesday or Wednesday afternoon, but she is requesting availability from the team to determine the exact time. The email suggests finding a time slot on Tuesday or Wednesday afternoon that works for everyone, but no definitive meeting time has been set yet.",
+    "emailContext": {
+      "id": "1",
+      "sender": {
+        "name": "Sarah Chen",
+        "email": "sarah.chen@company.com",
+        "avatar": "SC"
+      },
+      "subject": "Q4 Marketing Campaign Review",
+      "body": "Hi team,\n\nI wanted to follow up on our Q4 marketing campaign. Can we schedule a meeting this week to review the performance metrics? I've attached the preliminary data.\n\nPlease let me know your availability for Tuesday or Wednesday afternoon.\n\nBest regards,\nSarah",
+      "timestamp": "2024-11-25T10:00:00Z",
+      "category": "Work",
+      "categoryColor": "bg-blue-500",
+      "actionItems": [
+        "Schedule meeting for Tuesday or Wednesday afternoon",
+        "Review Q4 marketing performance metrics",
+        "Check attached preliminary data"
+      ],
+      "read": false,
+      "summary": ""
+    },
+    "prompts": {
+      "categorization": "Analyze the email content and sender information to categorize it into one of the following categories: Work, Personal, Shopping, Social, Finance, Design, Education, Newsletter, Spam. Return only the category name.",
+      "actionItems": "Extract actionable items from the email that require a response or action from the recipient. For each action item: 1. Be specific and concise 2. Include deadlines if mentioned 3. Focus on what needs to be done 4. Ignore marketing or informational content. Return a bulleted list of action items, or an empty list if none exist.",
+      "autoReply": "Generate a professional and contextually appropriate email reply based on the original email content. Guidelines: 1. Match the tone of the original email (formal/casual) 2. Address all questions or requests mentioned 3. Be concise but complete 4. Include appropriate greeting and closing 5. Leave placeholders [DETAILS] where specific information is needed. Generate a draft reply that can be edited before sending."
+    },
+    "conversationHistory": [
+      {
+        "query": "summarize this email for me",
+        "response": "Here's a summary of the email:\n\nSender: Sarah Chen (sarah.chen@company.com)\nTopic: Q4 Marketing Campaign Review\n\nKey Points:\n- Sarah is reaching out to her team about the Q4 marketing campaign\n- She wants to schedule a team meeting this week\n- The purpose is to review performance metrics for the marketing campaign\n- She has attached preliminary data to the email\n- She is requesting availability for a meeting on Tuesday or Wednesday afternoon\n\nAction Items:\n1. Schedule a team meeting to review Q4 marketing campaign metrics\n2. Check the attached preliminary data\n3. Confirm availability for Tuesday or Wednesday afternoon meeting\n\nThe email is a straightforward work-related communication aimed at coordinating a review of marketing campaign performance and setting up a team meeting."
+      }
+    ],
+    "timestamp": "2025-11-25T10:55:09.865Z"
+  },
+  {
+    "id": "c089b666-cbfa-49da-9680-e5f93392aa34",
+    "emailId": "3",
+    "query": "who is the sender of this email?",
+    "response": "The sender of this email is Michael Torres, with the email address m.torres@techcorp.io. He appears to be a colleague discussing a code review for a new authentication module in Project Alpha.",
+    "emailContext": {
+      "id": "3",
+      "sender": {
+        "name": "Michael Torres",
+        "email": "m.torres@techcorp.io",
+        "avatar": "MT"
+      },
+      "subject": "Project Alpha - Code Review Needed",
+      "body": "Hey,\n\nI've just pushed the new authentication module to the dev branch. Would appreciate if you could review the PR before EOD.\n\nThe main changes include:\n- OAuth2 integration\n- Token refresh mechanism\n- User session management\n\nLet me know if you have any questions.\n\nCheers,\nMichael",
+      "timestamp": "2024-11-24T12:00:00Z",
+      "category": "Work",
+      "categoryColor": "bg-blue-500",
+      "actionItems": [
+        "Review PR for authentication module before EOD",
+        "Check OAuth2 integration implementation",
+        "Verify token refresh mechanism"
+      ],
+      "read": true,
+      "summary": ""
+    },
+    "prompts": {
+      "categorization": "Analyze the email content and sender information to categorize it into one of the following categories: Work, Personal, Shopping, Social, Finance, Design, Education, Newsletter, Spam. Return only the category name.",
+      "actionItems": "Extract actionable items from the email that require a response or action from the recipient. For each action item: 1. Be specific and concise 2. Include deadlines if mentioned 3. Focus on what needs to be done 4. Ignore marketing or informational content. Return a bulleted list of action items, or an empty list if none exist.",
+      "autoReply": "Generate a professional and contextually appropriate email reply based on the original email content. Guidelines: 1. Match the tone of the original email (formal/casual) 2. Address all questions or requests mentioned 3. Be concise but complete 4. Include appropriate greeting and closing 5. Leave placeholders [DETAILS] where specific information is needed. Generate a draft reply that can be edited before sending."
+    },
+    "conversationHistory": [],
+    "timestamp": "2025-11-25T14:08:00.359Z"
+  }
+]

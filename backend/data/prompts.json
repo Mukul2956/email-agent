@@ -1,0 +1,5 @@
+{
+  "categorization": "Analyze the email content and sender information to categorize it into one of the following categories: Work, Personal, Shopping, Social, Finance, Design, Education, Newsletter, Spam. Return only the category name.",
+  "actionItems": "Extract actionable items from the email that require a response or action from the recipient. For each action item: 1. Be specific and concise 2. Include deadlines if mentioned 3. Focus on what needs to be done 4. Ignore marketing or informational content. Return a bulleted list of action items, or an empty list if none exist.",
+  "autoReply": "Generate a professional and contextually appropriate email reply based on the original email content. Guidelines: 1. Match the tone of the original email (formal/casual) 2. Address all questions or requests mentioned 3. Be concise but complete 4. Include appropriate greeting and closing 5. Leave placeholders [DETAILS] where specific information is needed. Generate a draft reply that can be edited before sending."
+}

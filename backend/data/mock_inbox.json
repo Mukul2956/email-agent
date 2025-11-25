@@ -1,0 +1,178 @@
+[
+  {
+    "id": "1",
+    "sender": {
+      "name": "Sarah Chen",
+      "email": "sarah.chen@company.com",
+      "avatar": "SC"
+    },
+    "subject": "Q4 Marketing Campaign Review",
+    "body": "Hi team,\n\nI wanted to follow up on our Q4 marketing campaign. Can we schedule a meeting this week to review the performance metrics? I've attached the preliminary data.\n\nPlease let me know your availability for Tuesday or Wednesday afternoon.\n\nBest regards,\nSarah",
+    "timestamp": "2024-11-25T10:00:00Z",
+    "category": "Work",
+    "categoryColor": "bg-blue-500",
+    "actionItems": [
+      "Schedule meeting for Tuesday or Wednesday afternoon",
+      "Review Q4 marketing performance metrics",
+      "Check attached preliminary data"
+    ],
+    "read": false,
+    "summary": ""
+  },
+  {
+    "id": "2",
+    "sender": {
+      "name": "Amazon",
+      "email": "no-reply@amazon.com",
+      "avatar": "A"
+    },
+    "subject": "Your order has been shipped",
+    "body": "Hello,\n\nGood news! Your order #12345-67890 has been shipped and is on its way to you.\n\nTracking number: 1Z999AA10123456784\nEstimated delivery: November 26, 2025\n\nYou can track your package at any time.\n\nThank you for shopping with Amazon.",
+    "timestamp": "2024-11-25T07:00:00Z",
+    "category": "Shopping",
+    "categoryColor": "bg-purple-500",
+    "actionItems": ["Track package with tracking number 1Z999AA10123456784"],
+    "read": false,
+    "summary": ""
+  },
+  {
+    "id": "3",
+    "sender": {
+      "name": "Michael Torres",
+      "email": "m.torres@techcorp.io",
+      "avatar": "MT"
+    },
+    "subject": "Project Alpha - Code Review Needed",
+    "body": "Hey,\n\nI've just pushed the new authentication module to the dev branch. Would appreciate if you could review the PR before EOD.\n\nThe main changes include:\n- OAuth2 integration\n- Token refresh mechanism\n- User session management\n\nLet me know if you have any questions.\n\nCheers,\nMichael",
+    "timestamp": "2024-11-24T12:00:00Z",
+    "category": "Work",
+    "categoryColor": "bg-blue-500",
+    "actionItems": [
+      "Review PR for authentication module before EOD",
+      "Check OAuth2 integration implementation",
+      "Verify token refresh mechanism"
+    ],
+    "read": true,
+    "summary": ""
+  },
+  {
+    "id": "4",
+    "sender": {
+      "name": "LinkedIn Learning",
+      "email": "noreply@linkedin.com",
+      "avatar": "L"
+    },
+    "subject": "New Course: Advanced React Patterns",
+    "body": "Hi there!\n\nWe've just released a new course that we think you'll love: Advanced React Patterns. This course covers:\n\n- Higher-order components\n- Render props\n- Context API best practices\n- Custom hooks\n\nThe course is now live and ready for you to start learning.\n\nHappy learning!",
+    "timestamp": "2024-11-24T09:30:00Z",
+    "category": "Education",
+    "categoryColor": "bg-green-500",
+    "actionItems": ["Review new React course content"],
+    "read": false,
+    "summary": ""
+  },
+  {
+    "id": "5",
+    "sender": {
+      "name": "Emma Wilson",
+      "email": "emma.wilson@designstudio.com",
+      "avatar": "EW"
+    },
+    "subject": "Design System V2.0 - Feedback Requested",
+    "body": "Hello,\n\nI've completed the initial design for our new design system. I'd love to get your feedback on the following components:\n\n- Button variants\n- Color palette\n- Typography scales\n- Spacing tokens\n\nThe Figma file is ready for review. Let me know when you have time to go through it.\n\nThanks!\nEmma",
+    "timestamp": "2024-11-23T15:45:00Z",
+    "category": "Design",
+    "categoryColor": "bg-pink-500",
+    "actionItems": [
+      "Review Figma design system file",
+      "Provide feedback on button variants",
+      "Review color palette and typography"
+    ],
+    "read": false,
+    "summary": ""
+  },
+  {
+    "id": "6",
+    "sender": {
+      "name": "Bank of America",
+      "email": "alerts@bankofamerica.com",
+      "avatar": "BA"
+    },
+    "subject": "Monthly Statement Available",
+    "body": "Dear Valued Customer,\n\nYour monthly statement for November 2024 is now available in your online banking account.\n\nStatement Summary:\n- Account Balance: $3,247.52\n- Total Deposits: $4,200.00\n- Total Withdrawals: $1,825.30\n\nTo view your complete statement, please log in to your online banking account.\n\nThank you for banking with us.",
+    "timestamp": "2024-11-23T08:00:00Z",
+    "category": "Finance",
+    "categoryColor": "bg-orange-500",
+    "actionItems": ["Review monthly bank statement"],
+    "read": true,
+    "summary": ""
+  },
+  {
+    "id": "7",
+    "sender": {
+      "name": "Slack",
+      "email": "notifications@slack.com",
+      "avatar": "S"
+    },
+    "subject": "Weekly Team Digest - 15 new messages",
+    "body": "Here's what happened in your team channels this week:\n\n#general: 8 new messages\n#project-alpha: 5 new messages\n#random: 2 new messages\n\nMost active members:\n1. John Doe (12 messages)\n2. Jane Smith (8 messages)\n3. You (3 messages)\n\nStay connected with your team!",
+    "timestamp": "2024-11-22T18:00:00Z",
+    "category": "Social",
+    "categoryColor": "bg-indigo-500",
+    "actionItems": ["Check team channel updates"],
+    "read": false,
+    "summary": ""
+  },
+  {
+    "id": "8",
+    "sender": {
+      "name": "TechCrunch Newsletter",
+      "email": "newsletter@techcrunch.com",
+      "avatar": "TC"
+    },
+    "subject": "Daily Crunch: AI startup raises $100M",
+    "body": "Good morning! Here are today's top tech stories:\n\n1. AI startup SecureChat raises $100M Series B\n2. Apple announces new MacBook Pro with M4 chip\n3. Tesla's Cybertruck production hits 100K units\n4. Google introduces new AI search features\n5. Meta's VR headset sales double year-over-year\n\nRead more at techcrunch.com",
+    "timestamp": "2024-11-22T06:00:00Z",
+    "category": "Newsletter",
+    "categoryColor": "bg-gray-500",
+    "actionItems": [],
+    "read": true,
+    "summary": ""
+  },
+  {
+    "id": "9",
+    "sender": {
+      "name": "Suspicious Sender",
+      "email": "winner@lottery-scam.fake",
+      "avatar": "SS"
+    },
+    "subject": "CONGRATULATIONS! You've won $1,000,000!",
+    "body": "Dear Lucky Winner!\n\nYou have been selected as the winner of our international lottery! To claim your prize of $1,000,000, please send your personal details and bank account information to this email immediately.\n\nThis is a limited time offer! Act now!\n\nClick here to claim: http://suspicious-link.fake",
+    "timestamp": "2024-11-21T14:30:00Z",
+    "category": "Spam",
+    "categoryColor": "bg-red-500",
+    "actionItems": [],
+    "read": false,
+    "summary": ""
+  },
+  {
+    "id": "10",
+    "sender": {
+      "name": "Alex Rodriguez",
+      "email": "alex@freelance.dev",
+      "avatar": "AR"
+    },
+    "subject": "Project Proposal - E-commerce Platform",
+    "body": "Hi there,\n\nI hope this email finds you well. I'm writing to propose a collaboration on developing a modern e-commerce platform.\n\nProject scope:\n- React/Next.js frontend\n- Node.js/Express backend\n- PostgreSQL database\n- Payment integration\n- Admin dashboard\n\nTimeline: 8-10 weeks\nBudget: $25,000 - $35,000\n\nI'd love to discuss this opportunity further. Are you available for a call this week?\n\nBest regards,\nAlex",
+    "timestamp": "2024-11-21T11:00:00Z",
+    "category": "Work",
+    "categoryColor": "bg-blue-500",
+    "actionItems": [
+      "Review project proposal details",
+      "Schedule call with Alex Rodriguez",
+      "Discuss timeline and budget"
+    ],
+    "read": false,
+    "summary": ""
+  }
+]
