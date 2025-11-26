@@ -257,8 +257,8 @@ flowchart TD
 - **[🎨 UI Components](frontend/src/components/)** - Reusable React components
 
 ### 🔗 **Quick Links**
-- **Backend Health:** [`http://localhost:5000/api/health`](http://localhost:5000/api/health)
-- **Frontend Dev:** [`http://localhost:5173`](http://localhost:5173)
+- **Backend Health:** [`http://localhost:5001/api/health`](http://localhost:5001/api/health)
+- **Frontend Dev:** [`http://localhost:3000`](http://localhost:3000)
 - **Database Studio:** Run `npx prisma studio`
 - **API Documentation:** Available in route files
 
