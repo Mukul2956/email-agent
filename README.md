@@ -182,6 +182,20 @@ npx prisma studio
 
 ---
 
+## 🌐 Live Demo
+
+**🔗 Frontend:** [https://email-agent-jade.vercel.app](https://email-agent-jade.vercel.app)  
+**🔗 Backend API:** [https://email-agent-backend-ole0.onrender.com/api](https://email-agent-backend-ole0.onrender.com/api)  
+**🏥 Health Check:** [https://email-agent-backend-ole0.onrender.com/api/health](https://email-agent-backend-ole0.onrender.com/api/health)
+
+### 🚀 Deployment Status
+- **Frontend:** Deployed on Vercel
+- **Backend:** Deployed on Render  
+- **Database:** Supabase PostgreSQL
+- **AI Service:** OpenRouter API
+
+---
+
 ## 🧠 How It Works
 
 <div align="center">
@@ -316,19 +330,44 @@ cat backend/.env
 
 | Platform | Backend | Frontend | Database |
 |----------|---------|----------|----------|
-| **Vercel** | ✅ Node.js | ✅ React | 🔗 Supabase |
-| **Netlify** | ❌ | ✅ React | 🔗 External DB |
+| **Vercel** | ❌ | ✅ React | 🔗 Supabase |
+| **Render** | ✅ Node.js | ❌ | 🔗 PostgreSQL |
 | **Railway** | ✅ Express | ✅ Static | ✅ PostgreSQL |
 | **Heroku** | ✅ Node.js | ✅ React | ✅ Postgres Add-on |
 
 </div>
 
 ### 🌐 Production Deployment Steps
+
+**Backend (Render):**
 1. **Environment Setup:** Configure production environment variables
 2. **Database Migration:** Run `npx prisma migrate deploy`
-3. **Build Frontend:** `npm run build` in frontend directory
-4. **Deploy Backend:** Configure Node.js hosting with environment variables
-5. **CORS Configuration:** Update allowed origins for production domains
+3. **CORS Configuration:** Update allowed origins for production domains
+4. **Port Binding:** Ensure server listens on `0.0.0.0:PORT`
+
+**Frontend (Vercel):**
+1. **Environment Variables:** Set `VITE_API_BASE_URL` and `VITE_OPENROUTER_API_KEY`
+2. **Build Configuration:** Output directory: `dist`, Build command: `npm run build`
+3. **SPA Routing:** Add `_redirects` file for client-side routing support
+4. **Domain Setup:** Configure custom domain if needed
+
+### 🔧 Environment Variables Required
+
+**Backend (.env):**
+```env
+NODE_ENV=production
+PORT=10000
+DATABASE_URL=your_postgresql_connection_string
+DIRECT_URL=your_direct_db_connection_string  
+OPENROUTER_API_KEY=your_openrouter_api_key
+JWT_SECRET=your_jwt_secret
+```
+
+**Frontend (Vercel Dashboard):**
+```env
+VITE_API_BASE_URL=https://your-backend.onrender.com/api
+VITE_OPENROUTER_API_KEY=your_openrouter_api_key
+```
 
 ---
 
