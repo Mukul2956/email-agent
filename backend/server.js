@@ -59,8 +59,8 @@ app.use('*', (req, res) => {
 // Error handling middleware (must be last)
 app.use(errorHandler);
 
-app.listen(PORT, 'localhost', () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 Email Productivity Backend running on port ${PORT}`);
-  console.log(`📧 API available at: http://localhost:${PORT}/api`);
-  console.log(`🏥 Health check: http://localhost:${PORT}/api/health`);
+  console.log(`📧 API available at: http://0.0.0.0:${PORT}/api`);
+  console.log(`🏥 Health check: http://0.0.0.0:${PORT}/api/health`);
 });
