@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Email Dashboard
+# 🚀 AI-Powered Email Productivity Agent
 
 <div align="center">
 
