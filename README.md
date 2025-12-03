@@ -401,7 +401,7 @@ VITE_OPENROUTER_API_KEY=your_openrouter_api_key
 
 **⭐ Star this repo** • **🍴 Fork it** • **🚀 Deploy it** • **🤝 Contribute**
 
-<sub>Built with ❤️ by the Email Productivity Team</sub>
+<sub>Built with ❤️ by Mukul2956</sub>
 
 **[📝 MIT License](LICENSE)** | **[🐛 Report Bug](../../issues)** | **[💡 Request Feature](../../issues)**
 
